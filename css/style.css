@@ -1,0 +1,284 @@
+/* Start all */
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    padding: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.h2re {
+    margin: 0;
+}
+
+h2,
+h3 {
+    color: #0E0E0E;
+}
+
+p {
+    color: #5c5c5c;
+}
+
+
+/* End all */
+
+
+/* Start header */
+
+.conSize {
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+/* Start background */
+
+.background {
+    margin: auto;
+    border-radius: 10px;
+    background: #ccc;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End background */
+
+
+/* Start nav */
+
+.nav {
+    margin: -10px auto;
+    border-radius: 0 0 10px 10px;
+    background: #9D2443;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.nav .conSize h2 {
+    float: left;
+}
+
+.nav .conSize ul {
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+    /* text-transform: uppercase; */
+}
+
+.nav .conSize ul li {
+    padding: 10px;
+    float: right;
+    color: #D9CB7C;
+    font-weight: bold;
+}
+
+
+/* End nav */
+
+
+/* End header */
+
+
+/* Start features */
+
+.features {
+    overflow: hidden;
+    padding: 40px 30px 30px;
+}
+
+.features h2 {
+    text-transform: uppercase;
+    color: rgb(70, 70, 70);
+}
+
+.features .conSize .feat {
+    margin: auto;
+    float: left;
+    width: 33.333%;
+    /* height: 150px; */
+    /* background-color: red; */
+}
+
+
+/* End features */
+
+
+/* Start about-me */
+
+.aboutMe .conSize {
+    background: #f2f2f2;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.aboutMe .conSize .image {
+    float: left;
+    width: 40%;
+}
+
+.aboutMe .conSize .image img {
+    width: 100%;
+}
+
+.aboutMe .conSize .info {
+    float: left;
+    width: 56%;
+    margin: 2%;
+}
+
+.aboutMe .conSize .info .hobbies {
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.aboutMe .conSize .info .hobbies>div {
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/* End about-me */
+
+
+/* Start mySkills */
+
+.mySkills {
+    padding: 30px 2px;
+    overflow: hidden;
+}
+
+.mySkills .skills,
+.mySkills .progress {
+    float: left;
+    width: 48%;
+}
+
+
+/* End mySkills */
+
+
+/* Start resume */
+
+.resume .conSize {
+    text-align: center;
+    padding: 30px 0;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+/* End resume */
+
+
+/* Start myeducation */
+
+.myeducation {
+    padding: 30px 2px;
+    overflow: hidden;
+}
+
+.myeducation .education,
+.myeducation .xps {
+    float: left;
+    width: 48%;
+}
+
+.myeducation .xps .xp h3 {
+    margin-bottom: 0px;
+}
+
+.myeducation .xps .xp p {
+    margin: 0;
+}
+
+
+/* End myeducation */
+
+
+/* Start testemonial */
+
+.testemonial .conSize {
+    text-align: center;
+    padding: 30px 0;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+/* End testemonial */
+
+
+/* Start protofolio */
+
+.protofolio {
+    padding: 30px 0px;
+}
+
+.protofolio .conSize {
+    text-align: center;
+}
+
+.protofolio .conSize .work {
+    overflow: hidden;
+}
+
+.protofolio .conSize .work>div {
+    float: left;
+    width: 33.333333%;
+    margin: 5px auto;
+}
+
+.protofolio .conSize .work div img {
+    border-radius: 10px;
+}
+
+
+/* End protofolio */
+
+
+/* Start contactMe */
+
+.contactMe {
+    border-radius: 10px 10px 0 0;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+
+.contactMe .info,
+.contactMe .form {
+    width: 48%;
+    float: left;
+    padding: 0 2px;
+}
+
+
+/* End contactMe */
+
+
+/* Start footer */
+
+.footer {
+    border-radius: 0 0 10px 10px;
+    background: #ccc;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/* End footer */
